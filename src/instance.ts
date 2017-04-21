@@ -249,8 +249,8 @@ function applyDefaults(
         compilerConfig.options.isolatedModules = true;
     }
 
-    console.log('Adding experimentalDecorators')
-    compilerConfig.options.experimentalDecorators = true
+    console.log('Adding experimentalDecorators');
+    compilerConfig.options.experimentalDecorators = true;
 
     _.defaults(compilerConfig.options, {
         sourceRoot: compilerConfig.options.sourceMap ? context : undefined
